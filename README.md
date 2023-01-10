@@ -12,5 +12,5 @@ Step 2 - Accessing the Jenkins UI
   - kubectl get nodes -o wide
   - kubectl get pods -n jenkins
   - check the Pod’s logs for the admin password : 
-    1 kubectl logs jenkins-r6g53rg5-nrg3 -n jenkins
-    2 Copy your_jenkins_password, return to your browser and paste it into the Jenkins UI.
+    - 1 kubectl logs jenkins-r6g53rg5-nrg3 -n jenkins
+    - 2 Copy your_jenkins_password, return to your browser and paste it into the Jenkins UI.
