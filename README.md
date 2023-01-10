@@ -2,11 +2,11 @@
 
   
 Step 1 - Installing Jenkins on Kubernetes
-  kubectl create namespace jenkins
-  kubectl create -f jenkins.yaml --namespace jenkins
-  kubectl get pods -n jenkins
-  kubectl create -f jenkins-service.yaml --namespace jenkins
-  kubectl get services --namespace jenkins
+  - kubectl create namespace jenkins
+  - kubectl create -f jenkins.yaml --namespace jenkins
+  - kubectl get pods -n jenkins
+  - kubectl create -f jenkins-service.yaml --namespace jenkins
+  - kubectl get services --namespace jenkins
 
 Step 2 - Accessing the Jenkins UI
   kubectl get nodes -o wide
